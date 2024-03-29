@@ -19,7 +19,10 @@ const Sports: React.FC<Props> = ({isLightTheme}) => {
           <PlayersCard isLightTheme={  isLightTheme}  {...item} />
           </div>
         ))}
+        <div className={`${isLightTheme?"bg-white":"bg-[#3B3E47] "}`}>
         <Advertisement {...banner}/>
+        </div>
+       
       </div>
       <div className=" flex justify-center items-center pt-10">
       <button className="bg-[#2C9CF0] px-8 rounded-md py-2 text-white  ">
