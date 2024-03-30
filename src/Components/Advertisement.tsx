@@ -7,7 +7,7 @@ interface props{
 
 const Advertisement:React.FC<props> = ({imageUrl,title}) => {
   return (
-    <div className="flex justify-between flex-col items-center h-full  pt-2 px-2" >
+    <div className="flex justify-between flex-col items-center h-full shadow-lg pt-2 px-2" >
     <div className="w-[217px] h-[97%] border border-[#006555]">
       <div className='image relative   '>
         <img src={imageUrl} alt="advertisement " className=" object-cover" />
