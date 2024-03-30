@@ -10,8 +10,8 @@ const Sports: React.FC<Props> = ({isLightTheme}) => {
   
   return (
     <div className={`${isLightTheme?"text-black":"text-white "} md:min-h-[673px] w-[90vw] mb-10 `}>
-      <div className="border-b-2  md:ml-20 mb-4 border-[#738FFF] w-fit">
-        <h1 className="text-2xl font-semibold pt-9">Sports</h1>
+      <div className="border-b-2 ml-6  md:ml-20 mb-4 border-[#738FFF] w-fit">
+        <h1 className="text-2xl  font-semibold pt-9">Sports</h1>
       </div>
       <div className="flex flex-wrap justify-center gap-3  p-4">
         {data.map((item, index) => (
